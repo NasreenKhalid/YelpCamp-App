@@ -28,7 +28,9 @@ const helmet = require('helmet')
 // const dbUrl = process.env.DB_URL;
 const MongoStore = require('connect-mongo')
 
-const dbUrl = "mongodb://localhost:27017/yelp-camp";
+// const dbUrl = "mongodb://localhost:27017/yelp-camp";
+
+const dbUrl = 'mongodb+srv://nasreenkhalid:nasreen123@cluster0.0ln31.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
